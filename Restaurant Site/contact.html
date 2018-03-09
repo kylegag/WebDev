@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <h1><center>Kyle's Kale</center></h1>
+    <hr/>
+    <a href="home.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="contact.html">Contact Us</a>
+    <hr/>
+    <center>
+      <form action="submit.html" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id=name" name="name">
+        <br/>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <br/>
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone">
+        <br/>
+        <label for="inquiry">Reason for Inquiry:</label>
+        <select id="inquiry" name="inquiry">
+          <option value="catering" selected>Catering</option>
+          <option value="privateParty">Private Party</option>
+          <option value="feedback">Feedback</option>
+          <option value="other">Other</option>
+        </select>
+        <br/>
+        <label for="info">Additional Information:</label>
+        <textarea id="info" dirname="down"></textarea>
+        <br/>
+        <label for="firstTime">Have you been to the restaurant?</label>
+        <input type="radio" id="no" name="firstTime" value="no">
+        <label for="firstTime">No</label>
+        <input type="radio" id="yes" name="firstTime" value="yes">
+        <label for="firstTime">Yes</label>
+        <br/>
+        <label for="days">Best days to contact you:</label>
+        <input type="checkbox" id="monday" name="days" value="monday">
+        <label for="monday">M</label>
+        <input type="checkbox" id="tuesday" name="days" value="tuesday">
+        <label for="tuesday">T</label>
+        <input type="checkbox" id="wednesday" name="days" value="wednesday">
+        <label for="wednesday">W</label>
+        <input type="checkbox" id="thursday" name="days" value="thursday">
+        <label for="thursday">Th</label>
+        <input type="checkbox" id="friday" name="days" value="friday">
+        <label for="friday">F</label>
+        <br/>
+        <input type="submit" name="submit" value="Send Request">
+      </form>
+    </center>
+    <hr/>
+    <footer><p><center>123 Main St, MN, 54321</center><br/><center>(123)456-7890</center></p></footer>
+    <hr/>
+  </body>
+</html>
