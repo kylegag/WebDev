@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Menu</title>
+  <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    #content {
+      background-color: #32CD32;
+    }
+
+    th {
+      font-size: 25px;
+      text-align: center;
+    }
+
+    #menu td {
+      text-align: center;
+    }
+
+    #beverages {
+      width: 80%;
+      align: center;
+      margin: 30% 10% 0% 10%;
+      border-collapse: collapse;
+    }
+
+    #beverages td {
+      text-align: left;
+      width: 100%;
+    }
+
+    #beverages tr:nth-child(odd) {
+      background-color: #4da6ff;
+    }
+
+    #beverages tr:nth-child(even) {
+      background-color: #0080ff;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="top_title">Kyle's Kale</h1>
+  <hr/>
+  <ul class="nav nav-pills">
+    <li><a href="home.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+    <li class="active"><a href="menu.html">Menu</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  <noscript><h2>Warning! This page is best viewed with javascript enabled!<h2></noscript>
+  <hr/>
+  <div id="content">
+    <div class="container" id="menu">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2>Burger and Fries</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </p>
+            </div>
+            <div class="col-lg-6">
+              <h2>Kale Salad</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <h2>Italian Sausage and Peppers</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </p>
+            </div>
+            <div class="col-lg-6">
+              <h2>Tenderloin Sandwich and Chips</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <h2>Hot Dog and Chips</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </p>
+            </div>
+            <div class="col-lg-6">
+              <h2>Brisket Sandwich and Fries</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <table id="beverages">
+            <tr>
+              <th colspan="2">Beverages</th>
+            </tr>
+            <tr>
+              <td>Root Beer</td>
+              <td>$3.00</td>
+            </tr>
+            <tr>
+              <td>Bottled Water</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>Lemonade</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>Iced Tea</td>
+              <td>$1.25</td>
+            </tr>
+            <tr>
+              <td>Domestic Beer</td>
+              <td>$4.00</td>
+            </tr>
+            <tr>
+              <td>Craft Beer</td>
+              <td>$5.00</td>
+            </tr>
+            <tr>
+              <td>Kombucha</td>
+              <td>$3.50</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr/>
+  <footer>123 Main St, MN, 54321<br/>(123)456-7890</footer>
+  <hr/>
+</body>
+
+</html>

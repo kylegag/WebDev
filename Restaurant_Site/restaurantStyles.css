@@ -1,0 +1,26 @@
+.top_title {
+  font-family: Arial, Helvetica, serif;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+/* The following styles have no effect after implementing the pill tabs*/
+
+a:link {
+  color: #00F;
+}
+
+a:visited {
+  color: #808080;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:active {
+  text-decoration: none;
+}

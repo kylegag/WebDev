@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lucky Sevens</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="luckySevens.js"></script>
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 40px;
+      }
+
+      .lCol {
+        text-align: left;
+      }
+
+      #startingBet {
+          width: 130px;
+      }
+
+      #playButton {
+        text-align: center;
+      }
+
+      #myTable {
+        display: none;
+        margin-left: 40%;
+        margin-right: 20%;
+        width: 40%;
+      }
+
+      #myTable .rCol {
+        width: 100px;
+        text-align: right;
+      }
+
+      #myTable tr:nth-child(odd) {
+        background-color: #BEBEBE;
+      }
+
+      #myTable tr:nth-child(even) {
+        background-color: #E8E8E8;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lucky Sevens</h1>
+     <div class="text-center">
+           <label for="startingBet" id="betLabel">Starting Bet:</label>
+           <input type="text" id="startingBet">
+           <br/><br/>
+           <button onclick="startGame();" id="playButton">Play</button>
+           <hr/>
+           <table id="myTable">
+             <tr>
+               <th class= "lCol">Starting Bet</th>
+               <th class= "rCol" id="origBet"></th>
+             </tr>
+             <tr>
+               <td class= "lCol">Total Rolls Before Going Broke</td>
+               <td class="rCol" id="totRoll"></td>
+             </tr>
+             <tr>
+               <td class= "lCol">Highest Amount Won</td>
+               <td class="rCol" id="highWin"></td>
+             </tr>
+             <tr>
+               <td class= "lCol">Roll Count at Highest Amount Won</td>
+               <td class="rCol"id="rollCount"></td>
+             </tr>
+           </table>
+       </div>
+   </body>
+</html>
