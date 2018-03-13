@@ -25,6 +25,7 @@ function startGame() {
   var lDie;
   var rDie;
   origBet = myBet;
+  highestWon = myBet;
   /*console.log("New Game:");*/
   while (0 < myBet) {
     totalRolls++;
@@ -52,6 +53,5 @@ function startGame() {
   document.getElementById("myTable").style.display = "block";
   document.getElementById("playButton").innerText = "Play Again";
   totalRolls = 0;
-  highestWon = 0;
   rollAtHighWin = 0;
 }
