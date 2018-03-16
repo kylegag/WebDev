@@ -22,6 +22,10 @@ function startGame() {
     alert("Starting Bet must be a number!");
     return;
   }
+  if (myBet <= 0) {
+    alert("Starting Bet must be greter than 0!");
+    return;
+  }
   var lDie;
   var rDie;
   origBet = myBet;
